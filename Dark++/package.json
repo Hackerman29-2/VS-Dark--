@@ -1,0 +1,54 @@
+
+{
+  "_comment": "Most of this is unfinished, also I havent set up a azure account yet to publish this so it might be a while before this gets finished",
+  "name": "dark++",
+  "displayName": "++Dark",
+  "description": "A styled version of the original dark theme designed to make code reading eeasier with high contrast syntax and sticks to very low greys",
+  "version": "1.1.0",
+  "publisher": "",
+  "author": {
+    "name": "",
+    "url": "",
+    "email": ""
+  },
+  "icon": "dark++-logo.png",
+  "galleryBanner": {
+    "color": "#1e1e1e",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "engines": {
+    "vscode": "^1.51.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "Theme",
+    "Themes",
+    "Dark",
+    "Black",
+    "Gray",
+    "Indie"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark++",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark++-color-theme.json"
+      },
+      {
+        "label": "Dark++ (No Italics)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark++-color-theme-no-italics.json"
+      }
+    ]
+  }
+}
